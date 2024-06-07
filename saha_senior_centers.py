@@ -147,8 +147,7 @@ if 'uploaded_file' in st.session_state:
                     marker.add_to(m)
 
         # Streamlit을 사용하여 지도 출력
-        st.title("사하구 경로당 현황")
-        st.markdown("아래 지도는 사하구의 경로당 위치와 정보를 보여줍니다.")
+        st.title("위치정보 시각화(V1.0)")
 
         # 지도 표시
         folium_static(m, width=1200, height=800)
