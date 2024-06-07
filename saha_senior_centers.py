@@ -49,6 +49,7 @@ if uploaded_file is not None:
 if 'uploaded_file' in st.session_state:
     df = load_data(st.session_state['uploaded_file'])
 
+    st.sidebar.header("마커 옵션")
     # 마커 클러스터링 여부 선택 옵션
     use_marker_cluster = st.sidebar.radio("마커 클러스터 사용 여부", ("사용", "사용 안 함"))
 
