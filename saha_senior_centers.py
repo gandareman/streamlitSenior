@@ -9,7 +9,7 @@ from streamlit_folium import folium_static
 from io import BytesIO
 
 # 스트림릿 페이지 설정
-st.set_page_config(page_title="사하구 경로당 현황", layout="wide")
+st.set_page_config(page_title="위치정보 시각화", layout="wide")
 
 # 한글 글꼴 설정
 import matplotlib.pyplot as plt
